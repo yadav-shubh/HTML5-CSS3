@@ -1,6 +1,51 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
+    <head>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            #container{
+                background: silver;
+                width: 1200px;
+                margin: 0 auto;
+            }
+            header{
+                background:brown;
+                width: 1200px;
+                height: 70px;
+                margin: 0 auto;
+            }
+            nav{
+                background: orange;
+                width: 1200px;
+                height: 50px;
+            }
+            section{
+                background: grey;
+                width: 900px;
+                height: 500px;
+                float: left;
+            }
+            section header{
+                background: none;
+                width: 0;
+                height: 0;
+            }
+            aside{
+                background: goldenrod;
+                width: 300px;
+                height: 500px;
+                float: left;
+            }
+            footer {
+                background: brown;
+                width: 1200px;
+                height: 50px;
+            }
+        </style>
+    </head>
     <body>
         <div id="container">
             <header></header>
@@ -11,6 +56,7 @@
                     <article></article>
                 </section>
                 <aside></aside>
+                <div style="clear:both"></div>
             </main>
             <footer></footer>
         </div>
