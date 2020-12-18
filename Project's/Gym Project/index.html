@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Fitness Point</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg.jpeg');
+        border: 1px solid blue;
+        cursor: pointer;
+    }
+    
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 30px;
+        top: 20px;
+        border: 2px solid red;
+        color: blue;
+        cursor: pointer;
+    }
+    
+    .mid {
+        display: block;
+        width: 60%;
+        margin: 20px auto;
+        border: 2px solid red;
+        color: blue;
+        cursor: pointer;
+    }
+    
+    .right {
+        position: absolute;
+        display: inline-block;
+        right: 20px;
+        top: 20px;
+        border: 2px solid red;
+        color: blue;
+        cursor: pointer;
+    }
+    
+    .navbar {
+        display: inline-block;
+    }
+    
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+    
+    .navbar li a {
+        padding: 9px 13px;
+        color: white;
+        text-decoration: none;
+    }
+    
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: rgb(233, 53, 209);
+    }
+    
+    .left img {
+        width: 62px;
+        height: 50px;
+        filter: invert(100%);
+    }
+    
+    .left div {
+        text-align: center;
+        color: aqua;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- logo -->
+            <img src="img/logo.png" alt="">
+            <div>Shubh Fitness</div>
+
+        </div>
+        <div class="mid">
+            <!-- nav bar -->
+            <div class="navbar">
+                <ul clas>
+                    <li><a href="https://www.google.com/" class="active">Home</a></li>
+                    <li><a href="#">Fee</a></li>
+                    <li><a href="#">Fitness-Zone</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">ContactUs</a></li>
+                    <li><a href="#">AboutUs</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <!-- button -->
+            right for the button
+        </div>
+    </header>
+</body>
+
+</html>
